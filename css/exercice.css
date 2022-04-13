@@ -5,7 +5,12 @@
 .exercice-baseline-1 .container {
   align-items: baseline;
 }
-
+/* 2. exercice-baseline-2 */
+.exercice-baseline-2 .container {
+  flex-flow: column-reverse wrap-reverse;
+  align-items: baseline;
+  }
+  
 /* 5. exercice-flow-2 */
 
 /* 6. exercice-all-in-1 */
