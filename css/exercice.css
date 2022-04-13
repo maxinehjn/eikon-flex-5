@@ -18,7 +18,10 @@
     align-items: center;
     align-content: center;
   }
-  
+  /* 4. exercice-flow-1 */
+  .exercice-flow-1 .container {
+    flex-flow: row wrap;
+  }
 /* 5. exercice-flow-2 */
 
 /* 6. exercice-all-in-1 */
