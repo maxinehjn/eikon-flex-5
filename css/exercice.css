@@ -10,6 +10,14 @@
   flex-flow: column-reverse wrap-reverse;
   align-items: baseline;
   }
+  /* 3. exercice-baseline-3 */
+  .exercice-baseline-3 .container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
   
 /* 5. exercice-flow-2 */
 
