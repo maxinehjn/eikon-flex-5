@@ -26,6 +26,12 @@
 .exercice-flow-2 .container {
   flex-flow: column nowrap;
   align-items: flex-start;
+}
 /* 6. exercice-all-in-1 */
+.exercice-all-in-1 .container {
+  align-content: center;
+  justify-content: space-between;
+  flex-flow: column-reverse wrap-reverse;
+}
 
 /* 7. exercice-all-in-2 */
