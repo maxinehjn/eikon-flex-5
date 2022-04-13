@@ -1,11 +1,27 @@
+.container {
+  display: flex;
+}
 /* 1. exercice-baseline-1 */
-
+.exercice-baseline-1 .container {
+  align-items: baseline;
+}
 /* 2. exercice-baseline-2 */
-
+.exercice-baseline-2 .container {
+flex-flow: column-reverse wrap-reverse;
+align-items: baseline;
+}
 /* 3. exercice-baseline-3 */
-
+.exercice-baseline-3 .container {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
 /* 4. exercice-flow-1 */
-
+.exercice-flow-1 .container {
+  flex-flow: row wrap;
+}
 /* 5. exercice-flow-2 */
 
 /* 6. exercice-all-in-1 */
